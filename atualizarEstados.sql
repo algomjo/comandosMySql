@@ -4,3 +4,9 @@ set nome = 'Maranhão'
 WHERE sigla = 'MA';
 
 select id, nome as 'Estados ' from `estados` WHERE sigla = 'MA'
+
+update `cidades`
+set nome = 'Juazeiro do Norte' 
+WHERE id = 4;
+
+select id, nome as 'Estados ' from `estados` WHERE sigla = 'MA'
